@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://r4.wallpaperflare.com/wallpaper/892/692/922/howl-s-moving-castle-studio-ghibli-fantasy-art-clouds-daylight-hd-wallpaper-3be62c2d93012fc995842bf94d4cdc00.jpg') no-repeat center center fixed; /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the entire viewport */
+}
+
+.wrapper {
+    text-align: center; /* Center the text and buttons */
+    padding: 20px; /* Add padding to the wrapper */
+}
+
+h2 {
+    font-size: 3em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    gap: 20px; /* Adds space between buttons */
+    margin-top: 50px;
+}
+
+button {
+    width: 180px; /* Increase width if needed */
+    height: 50px; /* Ensure height is sufficient */
+    padding: 10px; /* Add padding for spacing */
+    color: white;
+    font-size: 1em; /* Decrease font size */
+    font-weight: bold; /* Keep text bold for visibility */
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid #e94d58;
+    background: #d83e4b; /* Set specific color for the NO button */
+    transition: transform 0.3s, background 0.3s;
+    overflow: hidden; /* Prevent text overflow */
+    text-overflow: ellipsis; /* Optional: add ellipsis for overflow */
+}
+
+button:hover {
+    background: #c72b40; /* Darker shade on hover */
+    transform: scale(1.05);
+}
